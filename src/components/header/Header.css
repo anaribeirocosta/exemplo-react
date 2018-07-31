@@ -1,0 +1,11 @@
+header{
+    height: 150px;
+    background-color: darkgray;
+    position: fixed;
+    top: 0;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

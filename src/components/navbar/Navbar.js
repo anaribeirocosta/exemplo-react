@@ -6,10 +6,7 @@ class Navbar extends Component {
   render() {
     return (
         <nav>
-            <a href="">Home</a>
-            <a href="">Sobre nós</a>
-            <a href="">Quem somos</a>
-            <a href="">Contato</a>
+            {this.props.links.map((texto, posicao) => <a key={posicao} href={this.props.hiperlinks[posicao]}>{texto}</a>)}
         </nav>
     );
   }

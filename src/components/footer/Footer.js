@@ -3,13 +3,13 @@ import './Footer.css';
 import imgFB from './icon1.png';
 import imgInsta from './icon2.png';
 import imgTwitter from './icon3.png';
+import Navbar from '../navbar/Navbar';
 
 
 class Footer extends Component {
     clicar(){
         prompt("digite seu email");
     }
-
     render() {
         return (
             <footer>

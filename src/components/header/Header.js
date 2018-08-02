@@ -7,7 +7,7 @@ class Header extends Component {
     return (
         <header>
             <h1>Faça seu Login!</h1>
-            <Navbar />
+            <Navbar links={["facebook", "Instagram", "Twitter", "Pudim"]} hiperlinks={["https://facebook.com", "https://instagram.com", "https://twitter.com", "https://pudim.com.br"]}/>
         </header>     
     );
   }
